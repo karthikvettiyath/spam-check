@@ -30,6 +30,7 @@ const Form = () => {
           id="spam-input"
           placeholder="Enter text to check for spam"
           value={input}
+           required
           onChange={(e) => setInput(e.target.value)}
         ></textarea>
       </label>
